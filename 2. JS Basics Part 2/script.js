@@ -61,7 +61,7 @@ function mostFrequent(arr) {
 console.log(mostFrequent([1, 2, "a", "a", 5, 15, true, "a"]));
 */
 ///////////////Exercise 3//////////////
-function productOfArray(arr) {
+/*function productOfArray(arr) {
   for (let count = 0; count < arr.length; count++) {
     if (typeof arr[count] == typeof true) {
       console.log("-1");
@@ -84,7 +84,29 @@ function productOfArray(arr) {
 
   console.log("The product of the numbers is: " + product);
 }
-productOfArray([10, 5, 10]);
+productOfArray([10, 5, 10]);*/
 ///////////////Exercise 4//////////////
+function removeNonIntegers(array) {
+  let new_array = array;
+  for (let count = 0; count < array.length; count++) {
+    if (typeof array[count] != typeof 56) {
+      new_array = new_array.slice(0, count).concat(new_array.slice(count + 1));
+    }
+  }
+
+  return new_array;
+}
+console.log(removeNonIntegers(["a", 1, 4, 3, 5, 6, true]));
 
 ///////////////Exercise 5//////////////
+/*function insert(str1, str2, position) {
+  if (position == undefined) {
+    return str1.slice(0, 0).concat(str2).concat(str1.slice(0));
+  }
+  // length_str1 = str1.length;
+
+  return str1.slice(0, position).concat(str2).concat(str1.slice(position));
+}
+console.log(insert("We are doing some exercises.", "JavaScript ", 18));
+console.log(insert("We are doing some exercises.", "JavaScript "));
+*/
