@@ -117,3 +117,18 @@ console.log(removeNonIntegers([0, 1, 4, 3, true, true, 6, 7, true]));
 console.log(insert("We are doing some exercises.", "JavaScript ", 18));
 console.log(insert("We are doing some exercises.", "JavaScript "));
 */
+/*
+let a = 10;
+let b = "git";
+a = b;
+
+let c = [1, 2, 5];
+c = a;
+c = b;
+// c = c.push(5);
+
+console.log("We are doing some exercises.", "JavaScript ");
+console.log(a);
+console.log(b);
+console.log(c);
+*/
