@@ -1,7 +1,7 @@
 // https://leetcode.com/
 // https://www.hackerrank.com/
 ///////////////////////Exercise 1///////////
-function FirstElements(arr, n) {
+/*function FirstElements(arr, n) {
   let new_array = [];
 
   if (n > arr.length) {
@@ -19,7 +19,7 @@ function FirstElements(arr, n) {
 let arr = [1, 2, 3, 4, 5, 6, 7, 8, 9];
 
 FirstElements(arr, 3);
-
+*/
 ///////////////Exercise 2//////////////
 //https://www.geeksforgeeks.org/count-occurrences-of-all-items-in-an-array-in-javascript/
 /*
@@ -66,20 +66,25 @@ function mostFrequent(arr) {
 console.log(mostFrequent([1, 2, "a", "a", 5, 15, true, "a"]));
 */
 ///////////////Exercise 3//////////////
-/*function productOfArray(arr) {
+function productOfArray(arr) {
   for (let count = 0; count < arr.length; count++) {
-    if (typeof arr[count] == typeof true) {
+    if (typeof arr[count] != typeof 4) {
       console.log("-1");
       return -1;
     }
-    if (typeof arr[count] == typeof "check") {
-      console.log("-1");
-      return -1;
-    }
-    if (typeof arr[count] == typeof undefined) {
-      console.log("-1");
-      return -1;
-    }
+
+    // if (typeof arr[count] == typeof true) {
+    //   console.log("-1");
+    //   return -1;
+    // }
+    // if (typeof arr[count] == typeof "check") {
+    //   console.log("-1");
+    //   return -1;
+    // }
+    // if (typeof arr[count] == typeof undefined) {
+    //   console.log("-1");
+    //   return -1;
+    // }
   }
 
   let product = 1;
@@ -89,7 +94,8 @@ console.log(mostFrequent([1, 2, "a", "a", 5, 15, true, "a"]));
 
   console.log("The product of the numbers is: " + product);
 }
-productOfArray([10, 5, 10]);*/
+productOfArray([10, 5, 10]);
+productOfArray([10, 5, "s"]);
 ///////////////Exercise 4//////////////
 /*function removeNonIntegers(array) {
   let new_array = [];
