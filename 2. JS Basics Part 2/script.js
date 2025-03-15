@@ -1,3 +1,5 @@
+// https://leetcode.com/
+// https://www.hackerrank.com/
 ///////////////////////Exercise 1///////////
 /*function FirstElements(arr, n) {
   if (n > arr.length) {
@@ -86,12 +88,13 @@ console.log(mostFrequent([1, 2, "a", "a", 5, 15, true, "a"]));
 }
 productOfArray([10, 5, 10]);*/
 ///////////////Exercise 4//////////////
-function removeNonIntegers(array) {
+/*function removeNonIntegers(array) {
   let new_array = [];
 
   for (let count = 0; count <= array.length; count = count + 1) {
     if (typeof array[count] == typeof 56) {
       // new_array = new_array.slice(0, count).concat(new_array.slice(count + 1));
+      // This syntax from the class is not right, tzpes assignment of number to arraz is done here
       // new_array = new_array.push(array[count]);
       new_array.push(count);
     }
@@ -101,7 +104,7 @@ function removeNonIntegers(array) {
 }
 console.log(removeNonIntegers([false, true, false, true]));
 console.log(removeNonIntegers([0, 1, 4, 3, true, true, 6, 7, true]));
-
+*/
 ///////////////Exercise 5//////////////
 /*function insert(str1, str2, position) {
   if (position == undefined) {
