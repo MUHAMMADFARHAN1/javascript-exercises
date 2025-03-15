@@ -60,3 +60,26 @@ greet(3);
 */
 
 //////////////Exercise 6/////////////
+function createPerson(name1, age, hobbies) {
+  let person = {
+    name: name1,
+    age: age,
+    hobbies: hobbies,
+  };
+
+  return person;
+}
+
+function describePerson(person) {
+  console.log(
+    "The person is " +
+      person.name +
+      " the age is " +
+      person.age +
+      " and the hobbies are " +
+      person.hobbies
+  );
+}
+
+let person = createPerson("Farhan", 30, ["Skiing", "Running", "Jumping"]);
+describePerson(person);
