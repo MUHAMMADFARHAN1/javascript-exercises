@@ -45,4 +45,18 @@ while (count < 11) {
   count++;
 }*/
 
-/////////Exercise 
+/////////Exercise 5//////////
+/*function add(num1, num2) {
+  return num1 + num2;
+}
+
+function greet(num1) {
+  console.log("Greetings: " + num1);
+}
+
+console.log(add(4, 5));
+
+greet(3);
+*/
+
+//////////////Exercise 6/////////////
