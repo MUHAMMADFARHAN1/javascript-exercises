@@ -60,9 +60,9 @@ greet(3);
 */
 
 //////////////Exercise 6/////////////
-/*function createPerson(name1, age, hobbies) {
+function createPerson(name, age, hobbies) {
   let person = {
-    name: name1,
+    name: name,
     age: age,
     hobbies: hobbies,
   };

@@ -123,8 +123,10 @@ let b = "git";
 a = b;
 
 let c = [1, 2, 5];
+let d = [1, 2, 5];
 c = a;
 c = b;
+// d = c.push(5);
 // c = c.push(5);
 
 console.log("We are doing some exercises.", "JavaScript ");
