@@ -17,23 +17,7 @@ FirstElements(arr, 3);
 
 ///////////////Exercise 2//////////////
 //https://www.geeksforgeeks.org/count-occurrences-of-all-items-in-an-array-in-javascript/
-// function mostfrequent(arr) {
-//   let check = arr.length;
-//   let arr_check = arr;
-
-//   for (let iterator = 0; iterator < arr.length; iterator++) {
-//     let key = arr_check[iterator];
-//     let counting = [];
-//     for (let iterator2 = iterator; iterator2 < arr.length; iterator2++) {
-//       if (arr.iterator2 == key && arr_check.iterator2 != undefined) {
-//         counting.iterator = counting.iterator++;
-//         delete arr_check.iterator;
-//       }
-//     }
-
-//   }
-// }
-
+/*
 function mostFrequent(arr) {
   let counting = [];
 
@@ -75,9 +59,32 @@ function mostFrequent(arr) {
 }
 
 console.log(mostFrequent([1, 2, "a", "a", 5, 15, true, "a"]));
-
+*/
 ///////////////Exercise 3//////////////
+function productOfArray(arr) {
+  for (let count = 0; count < arr.length; count++) {
+    if (typeof arr[count] == typeof true) {
+      console.log("-1");
+      return -1;
+    }
+    if (typeof arr[count] == typeof "check") {
+      console.log("-1");
+      return -1;
+    }
+    if (typeof arr[count] == typeof undefined) {
+      console.log("-1");
+      return -1;
+    }
+  }
 
+  let product = 1;
+  for (let chk = 0; chk < arr.length; chk++) {
+    product = arr[chk] * product;
+  }
+
+  console.log("The product of the numbers is: " + product);
+}
+productOfArray([10, 5, 10]);
 ///////////////Exercise 4//////////////
 
 ///////////////Exercise 5//////////////
